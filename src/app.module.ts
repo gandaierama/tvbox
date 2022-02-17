@@ -7,9 +7,10 @@ import { VideosModule } from './videos/videos.module';
 import { TabelasModule } from './tabelas/tabelas.module';
 import { OfertasModule } from './ofertas/ofertas.module';
 import { UsersModule } from './users/users.module';
+import { PlaylistModule } from './playlist/playlist.module';
 
 @Module({
-  imports: [PontosModule, ImagesModule, VideosModule, TabelasModule, OfertasModule, UsersModule],
+  imports: [PontosModule, ImagesModule, VideosModule, TabelasModule, OfertasModule, UsersModule, PlaylistModule],
   controllers: [AppController],
   providers: [AppService],
 })
